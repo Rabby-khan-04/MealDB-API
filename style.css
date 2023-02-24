@@ -1,12 +1,14 @@
 * {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box !important;
 }
 :root {
   --primary-color: #ffc107;
 }
 /* Headers Style */
 #header-btn,
-#search__btn {
+#search__btn,
+#view__all__btn {
   background-color: var(--primary-color);
 }
 
@@ -34,4 +36,17 @@
 }
 #search__field {
   border: none;
+}
+
+/* Search Results Styles */
+.search__results__section {
+  padding: 120px 0;
+}
+
+.view__link {
+  color: var(--primary-color);
+}
+
+#meals-container {
+  margin: 50px 0 85px;
 }

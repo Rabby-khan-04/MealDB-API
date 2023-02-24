@@ -68,6 +68,80 @@
         <!-- Banner Section Ends -->
 
         <!-- Search Results Starts -->
+
+        <section class="search__results__section">
+            <div class="container">
+                <div class="intor__container">
+                    <h2 class="fs-2 fw-medium text-center">Your Favourite Food</h2>
+                </div>
+
+
+                <div class="meal__wrapper">
+                    <div id="meals-container" class="row row-cols-1 row-cols-md-2 g-4">
+
+                        <div class="col">
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/burgur.png"
+                                            class="img-fluid rounded-start h-100 object-fit-cover" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural
+                                                lead-in to additional content. This content is a little bit longer.</p>
+                                            <a type="button" class="view__link fw-medium" data-bs-toggle="modal"
+                                                data-bs-target="#mealDetails">
+                                                View Details
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text-center">
+                        <button type="button" class="btn fw-semibold" id="view__all__btn">Show All</button>
+                    </div>
+                </div>
+
+                <!-- Meal Details Modal -->
+                <!-- Modal -->
+                <div class="modal fade" id="mealDetails" tabindex="-1" aria-labelledby="mealDetailsLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="mealDetailsLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/burgur.png" alt="" class="img-fluid w-100 d-block mb-4">
+                                <p class="fs-5 mb-1"><span class="fw-semibold">Category</span> <span
+                                        id="category">Hi</span>
+                                </p>
+                                <p class="fs-5 mb-1"><span class="fw-semibold">Area</span> <span id="area">Hi</span></p>
+                                <p class="fs-5 mb-1"><span class="fw-semibold">Instruction</span> <span
+                                        id="instruction">Hi</span></p>
+                                <p class="fs-5 mb-1"><span class="fw-semibold">Youtube</span> <a href="#"
+                                        id="youtube">Hi</a></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
         <!-- Search Results Ends -->
 
     </main>
