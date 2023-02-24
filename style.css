@@ -8,7 +8,8 @@
 /* Headers Style */
 #header-btn,
 #search__btn,
-#view__all__btn {
+#view__all__btn,
+.subscribe__btn {
   background-color: var(--primary-color);
 }
 
@@ -49,4 +50,10 @@
 
 #meals-container {
   margin: 50px 0 85px;
+}
+
+/* Footer Style */
+footer {
+  padding: 120px 0;
+  background-color: rgba(255, 193, 7, 0.05);
 }
