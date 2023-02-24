@@ -1,0 +1,7 @@
+:root {
+  --primary-color: #ffc107;
+}
+
+#header-btn {
+  background-color: var(--primary-color);
+}
