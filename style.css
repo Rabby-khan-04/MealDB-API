@@ -1,7 +1,37 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
 :root {
   --primary-color: #ffc107;
 }
-
-#header-btn {
+/* Headers Style */
+#header-btn,
+#search__btn {
   background-color: var(--primary-color);
+}
+
+/* Banndr Style */
+.banner__section {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(./images/banner_1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.banner {
+  max-width: 768px;
+  margin: auto;
+  padding: 155px 0;
+}
+
+.form__container {
+  height: 50px;
+}
+
+#basic-addon1 {
+  background-color: #fff;
+}
+#search__field {
+  border: none;
 }
